@@ -1,0 +1,42 @@
+ Preprocessors: 
+
+ 1. Preprocessors are programs that process our source code before compilation
+
+ 2. The source code written by programmers is stored in the file program.cpp.This file is then processed by preprocessors and
+    an expanded source code file is generated named program.This expanded file is compiled by the compiler and an object code file 
+    is generated named program.obj. Finally,  the linker links this object code file to the object code of the library functions 
+    to generate the executable file program.exe.
+
+3. 	#include : the preprocessor will open that file and paste all the code of that file in the included file.
+
+4. #define : the define statement will replace the current text with the new text
+
+5  #if statement will enable or disable the c++ code.
+
+ flow of execution :
+
+ c/c++ program -> (check if preprocessors) (false)---> Compiler (object files)---> Linker (links all the object files) ---> Excutable code
+	                |(True)								|
+					|->preprocessors perform action ---->
+
+ reference : https://www.geeksforgeeks.org/cc-preprocessors/
+
+
+ Visual studio:
+  In debug mode Optimization  is set to  disabled 
+  In Release mode Optimization is set to Maximum Optimization (Favor Speed) (/O2) 
+
+
+declaration and defination :
+
+Declaraion : The Function exists or declared but not defined with a body.
+
+Defination : The Funtion is there with it's body.
+
+Linker Error: 
+	If the fucntion is Declared but not Defined then, Linker error Arises. 
+
+
+Compiling: 
+	Converts the text file and convert them into object file.(logically it is converting the code into instructions).
+	
